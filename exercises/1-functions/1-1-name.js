@@ -58,7 +58,7 @@ function drawname() {
     context.lineTo(875,110);
     context.stroke();
 
-    context.lineWidth = 30;
+    context.lineWidth = 10;
     context.strokeStyle = 'purple';
     context.beginPath();
     context.moveTo(1025,50);

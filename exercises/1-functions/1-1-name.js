@@ -16,7 +16,7 @@ function drawname() {
     context.moveTo(50, 175);
     context.lineTo(100,50);
     context.lineTo(150,100);
-    context.lineTo(200,50)
+    context.lineTo(200,50);
     context.lineTo(250,175);
     context.stroke();
 
@@ -33,7 +33,7 @@ function drawname() {
     context.moveTo(475,50);
     context.lineTo(350,50);
     context.lineTo(350,175);
-    context.lineTo(475,175)
+    context.lineTo(475,175);
     context.stroke();
 
     context.lineWidth = 20;

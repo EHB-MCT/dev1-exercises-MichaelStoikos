@@ -27,7 +27,7 @@ function drawbox() {
     context.lineTo(150,150);
     context.lineTo(50,150);
     context.lineTo(50,50);
-    context.stroke()
+    context.stroke();
 
     
 }

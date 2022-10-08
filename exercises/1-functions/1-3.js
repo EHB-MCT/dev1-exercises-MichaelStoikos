@@ -16,7 +16,7 @@ function drawrec() {
     context.rect(50,50,150,150);
     context.rect(200,200,150,150);
     context.rect(75,275,50,50);
-    context.rect(275,75,50,50)
+    context.rect(275,75,50,50);
     context.stroke();
 
     //big red stroke rect fill

@@ -8,18 +8,19 @@ let height = context.canvas.height;
 drawMaze();
 
 function drawMaze() {
-    context.linewidth = 5;
+    context.lineWidth = 5;
     
-    for (let i = 0; i < 10; i++) {
-        let r = Math.round(Math.random());
-        let step = 20
+    for (let t = 0; t < 100; t++)
+        for (let i = 0; i < 180; i++) {
+            let r = Math.round(Math.random());
+            let step = 10
         
-        if (r == 1) {
-            Utils.drawLine(0 + (step * i),0,20 + (step *i),20);
-        }
-        else {
-            Utils.drawLine(0 + (step * 1,0 + step,20,20);
-        }
+            if (r == 1) {
+            Utils.drawLine(0 + (step * i),0 + (step * t), step + (step * i), step + (step * t));
+            }
+            else {
+            Utils.drawLine(0 + (step * i),step + (step * t),step + (step * i),0 + (step*t));
+            }
           
-    } 
+        } 
 }

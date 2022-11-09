@@ -15,7 +15,7 @@ function draw() {
 function drawDiagonalGrid() {
     let i = 0;
     while (i <= 7) {
-        let x = ;
+        let x = 0;
         let step = 100;
         Utils.drawLine(100, step + 50 * i, 100, step + 50 * i);
         Utils.drawLine(step + 50 * i, 100, step + 50 * i, 100);
